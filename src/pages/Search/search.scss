@@ -1,0 +1,32 @@
+.search {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  z-index: 40;
+  width: 100%;
+  background-color: black;
+
+  .searchInput {
+    border: 0;
+    border-bottom: 1px solid #fff;
+    width: 60%;
+    height: 77px;
+    background: none;
+    font-size: 22px;
+    text-align: center;
+    color: #fff;
+
+    i {
+      border: none;
+    }
+  }
+
+  .searchBtn {
+    padding: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+  }
+}
